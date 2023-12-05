@@ -1,15 +1,16 @@
 <html>
-<head> 
-
+img = "https://www.canva.com/design/DAF1Zu5Iwac/Z1pG6YA_lc884ZfAB-vfzw/edit?utm_content=DAF1Zu5Iwac&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
 </title>
 
-<form id = "myForm">
-    <div class="banner">
+<form id = "MealPlan">
+        <title>Weekly Fitness Meal Planner</title>
+        <div class="banner">
         <h1>Weekly Fitness Meal Planner</h1>
         <h2>Jason Bowman <br> Web115</h2>
 
     <style>
         .banner {
+            background-color: #218181;
             background-color: #218181;
             border: solid;
             color: #bbbbbb;
@@ -17,8 +18,14 @@
             text-align: center;
         }
     </style>
-    <button type="button" id="Submit">Submit</button>
     <script src="MealPlan.js" defer></script>
+    <label id="namelabel">Enter your name:</label>
+    <textarea id="name" rows="1" cols="15"></textarea>
+    <br><button type="reset" id="clear">Clear<br></button>
+    <br>
+    <button type='submit' id="submit">Submit<br></button>
+    <br><text id="email">Email:</text>
+    <input type="text" id="email" required>
 <body>
     <br>
     <br> 
@@ -26,69 +33,68 @@
         <tr>
           <th>Day</th>
           <th>Breakfast</th>
-          <th>Early Snack</th>
+          <th>earlySnack</th>
           <th>Lunch</th>
-          <th>Late Snack</th>
+          <th>lateSnack</th>
           <th>Dinner</th>
         </tr></br>
         <tr>
           <td>Monday</td>
-          <td><input type="text" class="meal" required></td>
-          <td><input type="text" class="meal" required></td>
-          <td><input type="text" class="meal" required></td>
-          <td><input type="text" class="meal" required></td>
-          <td><input type="text" class="meal" required></td>
+          <td><input type="text" class="meal"></td>
+          <td><input type="text" class="meal"></td>
+          <td><input type="text" class="meal"></td>
+          <td><input type="text" class="meal"></td>
+          <td><input type="text" class="meal"></td>
         </tr>
         <tr>
           <td>Tuesday</td>
-          <td><input type="text" class="meal" required></td>
-          <td><input type="text" class="meal" required></td>
-          <td><input type="text" class="meal" required></td> 
-          <td><input type="text" class="meal" required></td>            
-          <td><input type="text" class="meal" required></td>
+          <td><input type="text" class="meal"></td>
+          <td><input type="text" class="meal"></td>
+          <td><input type="text" class="meal"></td> 
+          <td><input type="text" class="meal"></td>            
+          <td><input type="text" class="meal"></td>
         </tr>
         <tr>
             <td>Wednesday</td> 
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
         </tr>
         <tr>
             <td>Thursday</td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
         </tr>
         <tr>
             <td>Friday</td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td> 
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td> 
-            <td><input type="text" class="meal" required></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td> 
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td> 
+            <td><input type="text" class="meal"></td>
         </tr>
         <tr>
             <td>Saturday</td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
         </tr>
         <tr>
             <td>Sunday</td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
-            <td><input type="text" class="meal" required></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
+            <td><input type="text" class="meal"></td>
         </tr>
     </table>
-
 </form>
 
 </body>
